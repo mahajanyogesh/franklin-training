@@ -1,11 +1,11 @@
 .columns > div {
   display: flex;
   flex-direction: column;
-  background-color: yellow;
+  background-color: lightcyan;
 }
 
 .columns img {
-  width: 100%;
+  width: 50%;
 }
 
 .columns > div > div {
