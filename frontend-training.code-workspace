@@ -1,13 +1,20 @@
 {
 	"folders": [
 		{
+			"name": "frontend-training",
 			"path": "../../../UI-training/frontend-training"
 		},
 		{
+			"name": "final-capstone-project",
 			"path": "../fe-training-final-capstone/final-capstone-project"
 		},
 		{
+			"name": "franklin-training",
 			"path": "."
+		},
+		{
+			"name": "utils",
+			"path": "../../../../Downloads/helix-website-main/utils"
 		}
 	],
 	"settings": {
