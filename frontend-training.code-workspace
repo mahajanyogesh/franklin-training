@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../../../UI-training/frontend-training"
+		},
+		{
+			"path": "../fe-training-final-capstone/final-capstone-project"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"webPreview.url": "http://localhost:5500/src",
+		"webPreview.mediaScreenOverride": true,
+		"liveServer.settings.multiRootWorkspaceName": "final-capstone-project"
+	}
+}
