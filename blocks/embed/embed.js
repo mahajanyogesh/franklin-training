@@ -1,4 +1,4 @@
-import { loadCSS } from '../../scripts/scripts.js';
+import { loadCSS } from '../../scripts/lib-franklin.js';
 
 const jsonpGist = (url, callback) => {
   // Setup a unique name that cane be called & destroyed
@@ -31,6 +31,7 @@ const gist = (element) => {
 };
 
 const youtube = (element) => {
+  debugger;
   const url = new URL(element.href);
   const vid = url.searchParams.get('v');
   const html = `<div class="youtube-wrapper">
@@ -43,6 +44,7 @@ const youtube = (element) => {
 export default function decorate(block) {
   const a = block.querySelector('a');
   const { hostname } = new URL(a.href);
+  console.log(`${hostname}`);
   if (hostname.includes('youtu')) {
     youtube(a);
   }
